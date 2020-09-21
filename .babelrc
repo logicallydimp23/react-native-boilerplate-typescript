@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src/"
+        ],
+        "alias": {
+          "@helpers": "./src/helpers",
+          "@base-components": "./src/components/base",
+          "@custom-components": "./src/components/custom",
+          "@screens": "./src/screens",
+          "@navigationService": "./src/config/router/NavigationService",
+          "@images": "./src/assets/images",
+          "@themes": "./src/config/themes",
+          "@translations": "./src/assets/translations",
+          "@redux/*": "./src/redux/*",
+          "@config/*": "./src/config/*",
+          "@animation": "./src/assets/animations"
+        }
+      }
+    ]
+  ]
+}

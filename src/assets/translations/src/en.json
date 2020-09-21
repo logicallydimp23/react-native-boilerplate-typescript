@@ -1,0 +1,10 @@
+{
+  "appName": "REACT NATIVE",
+  "login": {
+    "signup": "Don't have an account? Signup"
+  },
+  "placeholder": {
+    "email": "email",
+    "password": "password"
+  }
+}
